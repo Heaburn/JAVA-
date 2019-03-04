@@ -1,0 +1,21 @@
+package 1.12;
+import java.util.*;
+public class 1.12 {
+	    public static void  main(String[] args){
+	    	Scanner in =new Scanner(System.in);
+	        System.out.println("please input the hours a,the minites b,the seconds c ");
+	    	double a=in.nextDouble();
+	    	double b=in.nextDouble();
+	    	double c=in.nextDouble();
+	    	double d=b/60;
+	    	double e=c/3600;
+	    	 System.out.println("please input the mile");
+	    	double f=in.nextDouble();
+	    	double g=1.6*f;
+	    	double h=g/(a+d+e);
+	        if(a+d+e==0)
+	        	System.out.println("your  time has -1s");
+	        else
+	        	System.out.println("the answer is\t"+h);
+	    }
+	}
